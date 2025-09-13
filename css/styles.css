@@ -65,8 +65,9 @@ ul {
   color: #fff;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .title .button {
@@ -85,15 +86,15 @@ ul {
   background-color: #404bbf;
 }
 
-.advan h3 {
-  color: inherit;
+.advan .advan-title {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.advan p {
+.advan .advan-text {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -105,32 +106,18 @@ ul {
   background-color: #f4f4fd;
 }
 
-.team h2 {
-  color: inherit;
+.team .team-title {
+  color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .team li {
   background-color: #fff;
-}
-
-.team h3 {
-  color: inherit;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.team p {
-  color: #434455;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .portfolio h2 {
