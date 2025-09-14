@@ -116,7 +116,7 @@ ul {
   text-transform: capitalize;
 }
 
-.team li {
+.team .team-list {
   background-color: #fff;
 }
 
@@ -164,26 +164,26 @@ ul {
 
 .foot-style {
   background-color: #2e2f42;
-  color: #f4f4fd;
 }
 
-.foot-style a {
+.foot-style .logo {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #f4f4fd;
-}
-
-.foot-style .foot-style-logo {
   color: #4d5ae5;
 }
 
-.foot-style p {
-  font-weight: 400;
+.foot-style .logo .logo-color {
+  color: #f4f4fd;
+}
+
+.foot-style .advan-text {
+  color: #f4f4fd;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
